@@ -1,223 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="0" skipped="2">
+<testng-results ignored="8" total="18" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-08T11:25:02 SGT" name="CrossBrowser" finished-at="2024-06-08T11:29:29 SGT" duration-ms="266993">
+  <suite started-at="2024-06-08T12:26:08 SGT" name="Suite" finished-at="2024-06-08T12:27:46 SGT" duration-ms="97877">
     <groups>
       <group name="Sanity">
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@71d44a3]" name="loginTest" class="testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@815b41f]" name="loginTest" class="testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@7e6f74c]" name="loginTest" class="testcases.LoginPageTest"/>
+        <method signature="BruteForcePageTest.LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" name="LoginBruteForcePageTest" class="testcases.BruteForcePageTest"/>
+        <method signature="DVWASecurityPageTest.SelectDVWASecurityLOWPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" name="SelectDVWASecurityLOWPageTest" class="testcases.DVWASecurityPageTest"/>
+        <method signature="HomePageTest.clickBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickBruteForcePageTest" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.clickCommandInjectionPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickCommandInjectionPageTest" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.clickDVWASecurityPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickDVWASecurityPageTest" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickInstructionsPageTest" class="testcases.HomePageTest"/>
+        <method signature="InstructionsPageTest.clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.InstructionsPageTest@74235045]" name="clickInstructionsPageTest" class="testcases.InstructionsPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@78691363]" name="loginTest" class="testcases.LoginPageTest"/>
       </group> <!-- Sanity -->
       <group name="Smoke">
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@71d44a3]" name="loginTest" class="testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@815b41f]" name="loginTest" class="testcases.LoginPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@7e6f74c]" name="loginTest" class="testcases.LoginPageTest"/>
+        <method signature="BruteForcePageTest.LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" name="LoginBruteForcePageTest" class="testcases.BruteForcePageTest"/>
+        <method signature="DVWASecurityPageTest.SelectDVWASecurityLOWPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" name="SelectDVWASecurityLOWPageTest" class="testcases.DVWASecurityPageTest"/>
+        <method signature="HomePageTest.clickBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickBruteForcePageTest" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.clickCommandInjectionPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickCommandInjectionPageTest" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.clickDVWASecurityPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickDVWASecurityPageTest" class="testcases.HomePageTest"/>
+        <method signature="HomePageTest.clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickInstructionsPageTest" class="testcases.HomePageTest"/>
+        <method signature="InstructionsPageTest.clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.InstructionsPageTest@74235045]" name="clickInstructionsPageTest" class="testcases.InstructionsPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@78691363]" name="loginTest" class="testcases.LoginPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-06-08T11:25:02 SGT" name="FirefoxTest" finished-at="2024-06-08T11:27:58 SGT" duration-ms="175830">
-      <class name="testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@815b41f]" started-at="2024-06-08T11:25:05 SGT" name="setup" finished-at="2024-06-08T11:27:57 SGT" duration-ms="172766" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Failed to read marionette port 
-Host info: host: 'DESKTOP-R92G0CB', ip: '192.168.223.1'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to read marionette port 
-Host info: host: 'DESKTOP-R92G0CB', ip: '192.168.223.1'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:155)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:150)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at com.dvwa.base.base.launchApp(base.java:67)
-at testcases.LoginPageTest.setup(LoginPageTest.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@815b41f]" started-at="2024-06-08T11:27:57 SGT" name="loginTest" data-provider="credentials" finished-at="2024-06-08T11:27:57 SGT" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: Failed to read marionette port 
-Host info: host: 'DESKTOP-R92G0CB', ip: '192.168.223.1'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to read marionette port 
-Host info: host: 'DESKTOP-R92G0CB', ip: '192.168.223.1'
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:155)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:150)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:132)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:127)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:112)
-at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:102)
-at com.dvwa.base.base.launchApp(base.java:67)
-at testcases.LoginPageTest.setup(LoginPageTest.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@815b41f]" started-at="2024-06-08T11:27:58 SGT" name="tearDown" finished-at="1970-01-01T07:30:00 SGT" duration-ms="-1717817278108" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.LoginPageTest -->
-    </test> <!-- FirefoxTest -->
-    <test started-at="2024-06-08T11:25:02 SGT" name="EdgeTest" finished-at="2024-06-08T11:28:08 SGT" duration-ms="185893">
-      <class name="testcases.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testcases.LoginPageTest@7e6f74c]" started-at="2024-06-08T11:25:01 SGT" name="loadConfig" finished-at="2024-06-08T11:25:02 SGT" duration-ms="739" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@7e6f74c]" started-at="2024-06-08T11:25:05 SGT" name="setup" finished-at="2024-06-08T11:27:55 SGT" duration-ms="170330" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@7e6f74c]" started-at="2024-06-08T11:27:55 SGT" name="loginTest" data-provider="credentials" finished-at="2024-06-08T11:28:04 SGT" duration-ms="9399" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@7e6f74c]" started-at="2024-06-08T11:28:04 SGT" name="tearDown" finished-at="2024-06-08T11:28:08 SGT" duration-ms="3304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.LoginPageTest@7e6f74c]" started-at="2024-06-08T11:29:29 SGT" name="afterSuite" finished-at="2024-06-08T11:29:30 SGT" duration-ms="1388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.LoginPageTest -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2024-06-08T11:25:02 SGT" name="ChromeTest" finished-at="2024-06-08T11:29:29 SGT" duration-ms="266993">
-      <class name="testcases.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@71d44a3]" started-at="2024-06-08T11:25:05 SGT" name="setup" finished-at="2024-06-08T11:29:29 SGT" duration-ms="264145" status="FAIL">
+    <test started-at="2024-06-08T12:26:08 SGT" name="Test" finished-at="2024-06-08T12:27:46 SGT" duration-ms="97877">
+      <class name="testcases.HomePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:20 SGT" name="setup" finished-at="2024-06-08T12:26:24 SGT" duration-ms="4618" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -225,74 +35,10 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef66e8022cc57fc57889035251609a4c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\squid\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60879/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef66e8022cc57fc57889035251609a4c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef66e8022cc57fc57889035251609a4c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\squid\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60879/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef66e8022cc57fc57889035251609a4c
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
-at com.dvwa.base.base.launchApp(base.java:84)
-at testcases.LoginPageTest.setup(LoginPageTest.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-... 37 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@71d44a3]" started-at="2024-06-08T11:29:29 SGT" name="loginTest" data-provider="credentials" finished-at="2024-06-08T11:29:29 SGT" duration-ms="0" status="SKIP">
+        <test-method signature="clickBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:24 SGT" name="clickBruteForcePageTest" data-provider="credentials" finished-at="2024-06-08T12:26:28 SGT" duration-ms="4130" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,78 +51,309 @@ at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef66e8022cc57fc57889035251609a4c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\squid\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60879/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef66e8022cc57fc57889035251609a4c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef66e8022cc57fc57889035251609a4c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\squid\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60879/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef66e8022cc57fc57889035251609a4c
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
-at com.dvwa.base.base.launchApp(base.java:84)
-at testcases.LoginPageTest.setup(LoginPageTest.java:23)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-... 37 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@71d44a3]" started-at="2024-06-08T11:29:29 SGT" name="tearDown" finished-at="1970-01-01T07:30:00 SGT" duration-ms="-1717817369321" status="SKIP">
+        </test-method> <!-- clickBruteForcePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:28 SGT" name="tearDown" finished-at="2024-06-08T12:26:29 SGT" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:29 SGT" name="setup" finished-at="2024-06-08T12:26:33 SGT" duration-ms="4734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickCommandInjectionPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:33 SGT" name="clickCommandInjectionPageTest" data-provider="credentials" finished-at="2024-06-08T12:26:37 SGT" duration-ms="3894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCommandInjectionPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:37 SGT" name="tearDown" finished-at="2024-06-08T12:26:38 SGT" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:38 SGT" name="setup" finished-at="2024-06-08T12:26:41 SGT" duration-ms="3175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickDVWASecurityPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:41 SGT" name="clickDVWASecurityPageTest" data-provider="credentials" finished-at="2024-06-08T12:26:44 SGT" duration-ms="3318" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDVWASecurityPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:44 SGT" name="tearDown" finished-at="2024-06-08T12:26:45 SGT" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:45 SGT" name="setup" finished-at="2024-06-08T12:26:50 SGT" duration-ms="5071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:50 SGT" name="clickInstructionsPageTest" data-provider="credentials" finished-at="2024-06-08T12:26:54 SGT" duration-ms="4830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickInstructionsPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:54 SGT" name="tearDown" finished-at="2024-06-08T12:26:55 SGT" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.DVWASecurityPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" started-at="2024-06-08T12:27:39 SGT" name="setup" finished-at="2024-06-08T12:27:42 SGT" duration-ms="2991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SelectDVWASecurityLOWPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" started-at="2024-06-08T12:27:42 SGT" name="SelectDVWASecurityLOWPageTest" data-provider="credentials" finished-at="2024-06-08T12:27:45 SGT" duration-ms="3824" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectDVWASecurityLOWPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" started-at="2024-06-08T12:27:45 SGT" name="tearDown" finished-at="2024-06-08T12:27:46 SGT" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.DVWASecurityPageTest -->
+      <class name="testcases.InstructionsPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.InstructionsPageTest@74235045]" started-at="2024-06-08T12:26:55 SGT" name="setup" finished-at="2024-06-08T12:26:59 SGT" duration-ms="4375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.InstructionsPageTest@74235045]" started-at="2024-06-08T12:26:59 SGT" name="clickInstructionsPageTest" data-provider="credentials" finished-at="2024-06-08T12:27:05 SGT" duration-ms="5725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickInstructionsPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.InstructionsPageTest@74235045]" started-at="2024-06-08T12:27:05 SGT" name="tearDown" finished-at="2024-06-08T12:27:05 SGT" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.InstructionsPageTest -->
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:26:07 SGT" name="loadConfig" finished-at="2024-06-08T12:26:08 SGT" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:26:09 SGT" name="setup" finished-at="2024-06-08T12:26:15 SGT" duration-ms="6119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:26:15 SGT" name="loginTest" data-provider="credentials" finished-at="2024-06-08T12:26:19 SGT" duration-ms="3574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:26:19 SGT" name="tearDown" finished-at="2024-06-08T12:26:19 SGT" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:27:46 SGT" name="afterSuite" finished-at="2024-06-08T12:27:46 SGT" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
       </class> <!-- testcases.LoginPageTest -->
-    </test> <!-- ChromeTest -->
-  </suite> <!-- CrossBrowser -->
+      <class name="testcases.BruteForcePageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:05 SGT" name="setup" finished-at="2024-06-08T12:27:10 SGT" duration-ms="4940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:10 SGT" name="LoginBruteForcePageTest" data-provider="bruteForce" finished-at="2024-06-08T12:27:19 SGT" duration-ms="8223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBruteForcePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:19 SGT" name="tearDown" finished-at="2024-06-08T12:27:19 SGT" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:19 SGT" name="setup" finished-at="2024-06-08T12:27:22 SGT" duration-ms="3459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:22 SGT" name="LoginBruteForcePageTest" data-provider="bruteForce" finished-at="2024-06-08T12:27:28 SGT" duration-ms="5802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBruteForcePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:28 SGT" name="tearDown" finished-at="2024-06-08T12:27:29 SGT" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:29 SGT" name="setup" finished-at="2024-06-08T12:27:32 SGT" duration-ms="3223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:32 SGT" name="LoginBruteForcePageTest" data-provider="bruteForce" finished-at="2024-06-08T12:27:38 SGT" duration-ms="6494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBruteForcePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:38 SGT" name="tearDown" finished-at="2024-06-08T12:27:39 SGT" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.BruteForcePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

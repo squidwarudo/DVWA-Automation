@@ -8,138 +8,20 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">CrossBrowser</th></tr>
-<tr><td><a href="#t0">FirefoxTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">175,830</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">EdgeTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">185,893</td><td></td><td></td></tr>
-<tr><td><a href="#t2">ChromeTest</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">266,993</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num attn">2</th><th class="num">0</th><th class="num">0</th><th class="num">628,716</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">97,877</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CrossBrowser</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FirefoxTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testcases.LoginPageTest</td><td><a href="#m0">setup</a></td><td rowspan="1">1717817105167</td><td rowspan="1">172766</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testcases.LoginPageTest</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1717817278108</td><td rowspan="1">-1717817278108</td></tr><tr><th colspan="4">FirefoxTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.LoginPageTest</td><td><a href="#m2">loginTest</a></td><td rowspan="1">1717817277943</td><td rowspan="1">0</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">EdgeTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.LoginPageTest</td><td><a href="#m3">loginTest</a></td><td rowspan="1">1717817275498</td><td rowspan="1">9399</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">ChromeTest &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testcases.LoginPageTest</td><td><a href="#m4">setup</a></td><td rowspan="1">1717817105167</td><td rowspan="1">264145</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">testcases.LoginPageTest</td><td><a href="#m5">tearDown</a></td><td rowspan="1">1717817369321</td><td rowspan="1">-1717817369321</td></tr><tr><th colspan="4">ChromeTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.LoginPageTest</td><td><a href="#m6">loginTest</a></td><td rowspan="1">1717817369316</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testcases.BruteForcePageTest</td><td><a href="#m0">LoginBruteForcePageTest</a></td><td rowspan="3">1717820842941</td><td rowspan="3">5802</td></tr><tr class="passedeven"><td><a href="#m1">LoginBruteForcePageTest</a></td></tr><tr class="passedeven"><td><a href="#m2">LoginBruteForcePageTest</a></td></tr><tr class="passedodd"><td rowspan="1">testcases.DVWASecurityPageTest</td><td><a href="#m3">SelectDVWASecurityLOWPageTest</a></td><td rowspan="1">1717820862101</td><td rowspan="1">3824</td></tr><tr class="passedeven"><td rowspan="4">testcases.HomePageTest</td><td><a href="#m4">clickBruteForcePageTest</a></td><td rowspan="1">1717820784637</td><td rowspan="1">4130</td></tr><tr class="passedeven"><td><a href="#m5">clickCommandInjectionPageTest</a></td><td rowspan="1">1717820793924</td><td rowspan="1">3894</td></tr><tr class="passedeven"><td><a href="#m6">clickDVWASecurityPageTest</a></td><td rowspan="1">1717820801376</td><td rowspan="1">3318</td></tr><tr class="passedeven"><td><a href="#m7">clickInstructionsPageTest</a></td><td rowspan="1">1717820810165</td><td rowspan="1">4830</td></tr><tr class="passedodd"><td rowspan="1">testcases.InstructionsPageTest</td><td><a href="#m8">clickInstructionsPageTest</a></td><td rowspan="1">1717820819796</td><td rowspan="1">5725</td></tr><tr class="passedeven"><td rowspan="1">testcases.LoginPageTest</td><td><a href="#m9">loginTest</a></td><td rowspan="1">1717820775947</td><td rowspan="1">3574</td></tr></tbody>
 </table>
-<h2>FirefoxTest</h2><h3 id="m0">testcases.LoginPageTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to read marionette port 
-Host info: host: &apos;DESKTOP-R92G0CB&apos;, ip: &apos;192.168.223.1&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
-	at com.dvwa.base.base.launchApp(base.java:67)
-	at testcases.LoginPageTest.setup(LoginPageTest.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases.LoginPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases.LoginPageTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to read marionette port 
-Host info: host: &apos;DESKTOP-R92G0CB&apos;, ip: &apos;192.168.223.1&apos;
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:161)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:155)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:102)
-	at com.dvwa.base.base.launchApp(base.java:67)
-	at testcases.LoginPageTest.setup(LoginPageTest.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>EdgeTest</h2><h3 id="m3">testcases.LoginPageTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>ChromeTest</h2><h3 id="m4">testcases.LoginPageTest#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef66e8022cc57fc57889035251609a4c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\squid\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60879/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef66e8022cc57fc57889035251609a4c
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
-	at com.dvwa.base.base.launchApp(base.java:84)
-	at testcases.LoginPageTest.setup(LoginPageTest.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-	... 37 more
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testcases.LoginPageTest#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">testcases.LoginPageTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ef66e8022cc57fc57889035251609a4c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.142, chrome: {chromedriverVersion: 125.0.6422.141 (4b1e8393712..., userDataDir: C:\Users\squid\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60879}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60879/devtoo..., se:cdpVersion: 125.0.6422.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ef66e8022cc57fc57889035251609a4c
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399)
-	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1034)
-	at com.dvwa.base.base.launchApp(base.java:84)
-	at testcases.LoginPageTest.setup(LoginPageTest.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-	... 37 more
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">testcases.BruteForcePageTest#LoginBruteForcePageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user2</td><td>password2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.BruteForcePageTest#LoginBruteForcePageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user3</td><td>password3</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.BruteForcePageTest#LoginBruteForcePageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>user1</td><td>password1</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.DVWASecurityPageTest#SelectDVWASecurityLOWPageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.HomePageTest#clickBruteForcePageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.HomePageTest#clickCommandInjectionPageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.HomePageTest#clickDVWASecurityPageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.HomePageTest#clickInstructionsPageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.InstructionsPageTest#clickInstructionsPageTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.LoginPageTest#loginTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin</td><td>password</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
