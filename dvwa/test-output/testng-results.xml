@@ -1,229 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="8" total="18" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-08T12:26:08 SGT" name="Suite" finished-at="2024-06-08T12:27:46 SGT" duration-ms="97877">
+  <suite started-at="2024-06-08T12:34:01 SGT" name="CrossBrowser" finished-at="2024-06-08T12:34:35 SGT" duration-ms="34706">
     <groups>
       <group name="Sanity">
-        <method signature="BruteForcePageTest.LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" name="LoginBruteForcePageTest" class="testcases.BruteForcePageTest"/>
-        <method signature="DVWASecurityPageTest.SelectDVWASecurityLOWPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" name="SelectDVWASecurityLOWPageTest" class="testcases.DVWASecurityPageTest"/>
-        <method signature="HomePageTest.clickBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickBruteForcePageTest" class="testcases.HomePageTest"/>
-        <method signature="HomePageTest.clickCommandInjectionPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickCommandInjectionPageTest" class="testcases.HomePageTest"/>
-        <method signature="HomePageTest.clickDVWASecurityPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickDVWASecurityPageTest" class="testcases.HomePageTest"/>
-        <method signature="HomePageTest.clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickInstructionsPageTest" class="testcases.HomePageTest"/>
-        <method signature="InstructionsPageTest.clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.InstructionsPageTest@74235045]" name="clickInstructionsPageTest" class="testcases.InstructionsPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@78691363]" name="loginTest" class="testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@77888435]" name="loginTest" class="testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@7586beff]" name="loginTest" class="testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@6150c3ec]" name="loginTest" class="testcases.LoginPageTest"/>
       </group> <!-- Sanity -->
       <group name="Smoke">
-        <method signature="BruteForcePageTest.LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" name="LoginBruteForcePageTest" class="testcases.BruteForcePageTest"/>
-        <method signature="DVWASecurityPageTest.SelectDVWASecurityLOWPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" name="SelectDVWASecurityLOWPageTest" class="testcases.DVWASecurityPageTest"/>
-        <method signature="HomePageTest.clickBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickBruteForcePageTest" class="testcases.HomePageTest"/>
-        <method signature="HomePageTest.clickCommandInjectionPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickCommandInjectionPageTest" class="testcases.HomePageTest"/>
-        <method signature="HomePageTest.clickDVWASecurityPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickDVWASecurityPageTest" class="testcases.HomePageTest"/>
-        <method signature="HomePageTest.clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" name="clickInstructionsPageTest" class="testcases.HomePageTest"/>
-        <method signature="InstructionsPageTest.clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.InstructionsPageTest@74235045]" name="clickInstructionsPageTest" class="testcases.InstructionsPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@78691363]" name="loginTest" class="testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@77888435]" name="loginTest" class="testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@7586beff]" name="loginTest" class="testcases.LoginPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@6150c3ec]" name="loginTest" class="testcases.LoginPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-06-08T12:26:08 SGT" name="Test" finished-at="2024-06-08T12:27:46 SGT" duration-ms="97877">
-      <class name="testcases.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:20 SGT" name="setup" finished-at="2024-06-08T12:26:24 SGT" duration-ms="4618" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:24 SGT" name="clickBruteForcePageTest" data-provider="credentials" finished-at="2024-06-08T12:26:28 SGT" duration-ms="4130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickBruteForcePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:28 SGT" name="tearDown" finished-at="2024-06-08T12:26:29 SGT" duration-ms="296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:29 SGT" name="setup" finished-at="2024-06-08T12:26:33 SGT" duration-ms="4734" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickCommandInjectionPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:33 SGT" name="clickCommandInjectionPageTest" data-provider="credentials" finished-at="2024-06-08T12:26:37 SGT" duration-ms="3894" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickCommandInjectionPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:37 SGT" name="tearDown" finished-at="2024-06-08T12:26:38 SGT" duration-ms="268" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:38 SGT" name="setup" finished-at="2024-06-08T12:26:41 SGT" duration-ms="3175" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickDVWASecurityPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:41 SGT" name="clickDVWASecurityPageTest" data-provider="credentials" finished-at="2024-06-08T12:26:44 SGT" duration-ms="3318" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickDVWASecurityPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:44 SGT" name="tearDown" finished-at="2024-06-08T12:26:45 SGT" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:45 SGT" name="setup" finished-at="2024-06-08T12:26:50 SGT" duration-ms="5071" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:50 SGT" name="clickInstructionsPageTest" data-provider="credentials" finished-at="2024-06-08T12:26:54 SGT" duration-ms="4830" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickInstructionsPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@765d7657]" started-at="2024-06-08T12:26:54 SGT" name="tearDown" finished-at="2024-06-08T12:26:55 SGT" duration-ms="345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.HomePageTest -->
-      <class name="testcases.DVWASecurityPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" started-at="2024-06-08T12:27:39 SGT" name="setup" finished-at="2024-06-08T12:27:42 SGT" duration-ms="2991" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="SelectDVWASecurityLOWPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" started-at="2024-06-08T12:27:42 SGT" name="SelectDVWASecurityLOWPageTest" data-provider="credentials" finished-at="2024-06-08T12:27:45 SGT" duration-ms="3824" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SelectDVWASecurityLOWPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DVWASecurityPageTest@2d3379b4]" started-at="2024-06-08T12:27:45 SGT" name="tearDown" finished-at="2024-06-08T12:27:46 SGT" duration-ms="213" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.DVWASecurityPageTest -->
-      <class name="testcases.InstructionsPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.InstructionsPageTest@74235045]" started-at="2024-06-08T12:26:55 SGT" name="setup" finished-at="2024-06-08T12:26:59 SGT" duration-ms="4375" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="clickInstructionsPageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.InstructionsPageTest@74235045]" started-at="2024-06-08T12:26:59 SGT" name="clickInstructionsPageTest" data-provider="credentials" finished-at="2024-06-08T12:27:05 SGT" duration-ms="5725" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickInstructionsPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.InstructionsPageTest@74235045]" started-at="2024-06-08T12:27:05 SGT" name="tearDown" finished-at="2024-06-08T12:27:05 SGT" duration-ms="303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.InstructionsPageTest -->
+    <test started-at="2024-06-08T12:34:01 SGT" name="ChromeTest" finished-at="2024-06-08T12:34:14 SGT" duration-ms="13018">
       <class name="testcases.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:26:07 SGT" name="loadConfig" finished-at="2024-06-08T12:26:08 SGT" duration-ms="413" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:26:09 SGT" name="setup" finished-at="2024-06-08T12:26:15 SGT" duration-ms="6119" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@77888435]" started-at="2024-06-08T12:34:02 SGT" name="setup" finished-at="2024-06-08T12:34:08 SGT" duration-ms="6099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -234,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:26:15 SGT" name="loginTest" data-provider="credentials" finished-at="2024-06-08T12:26:19 SGT" duration-ms="3574" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@77888435]" started-at="2024-06-08T12:34:08 SGT" name="loginTest" data-provider="credentials" finished-at="2024-06-08T12:34:12 SGT" duration-ms="3898" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,110 +44,89 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:26:19 SGT" name="tearDown" finished-at="2024-06-08T12:26:19 SGT" duration-ms="321" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@77888435]" started-at="2024-06-08T12:34:12 SGT" name="tearDown" finished-at="2024-06-08T12:34:14 SGT" duration-ms="1333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.LoginPageTest@78691363]" started-at="2024-06-08T12:27:46 SGT" name="afterSuite" finished-at="2024-06-08T12:27:46 SGT" duration-ms="533" status="PASS">
+      </class> <!-- testcases.LoginPageTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-06-08T12:34:01 SGT" name="EdgeTest" finished-at="2024-06-08T12:34:20 SGT" duration-ms="19439">
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:testcases.LoginPageTest@6150c3ec]" started-at="2024-06-08T12:34:00 SGT" name="loadConfig" finished-at="2024-06-08T12:34:01 SGT" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@6150c3ec]" started-at="2024-06-08T12:34:02 SGT" name="setup" finished-at="2024-06-08T12:34:14 SGT" duration-ms="12260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@6150c3ec]" started-at="2024-06-08T12:34:14 SGT" name="loginTest" data-provider="credentials" finished-at="2024-06-08T12:34:18 SGT" duration-ms="3645" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@6150c3ec]" started-at="2024-06-08T12:34:18 SGT" name="tearDown" finished-at="2024-06-08T12:34:20 SGT" duration-ms="1863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.LoginPageTest@6150c3ec]" started-at="2024-06-08T12:34:35 SGT" name="afterSuite" finished-at="2024-06-08T12:34:36 SGT" duration-ms="524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- testcases.LoginPageTest -->
-      <class name="testcases.BruteForcePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:05 SGT" name="setup" finished-at="2024-06-08T12:27:10 SGT" duration-ms="4940" status="PASS">
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-06-08T12:34:01 SGT" name="FirefoxTest" finished-at="2024-06-08T12:34:35 SGT" duration-ms="34706">
+      <class name="testcases.LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.LoginPageTest@7586beff]" started-at="2024-06-08T12:34:02 SGT" name="setup" finished-at="2024-06-08T12:34:29 SGT" duration-ms="26813" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
+                <![CDATA[Firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:10 SGT" name="LoginBruteForcePageTest" data-provider="bruteForce" finished-at="2024-06-08T12:27:19 SGT" duration-ms="8223" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPageTest@7586beff]" started-at="2024-06-08T12:34:29 SGT" name="loginTest" data-provider="credentials" finished-at="2024-06-08T12:34:33 SGT" duration-ms="3847" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user1]]>
+                <![CDATA[admin]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[password1]]>
+                <![CDATA[password]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginBruteForcePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:19 SGT" name="tearDown" finished-at="2024-06-08T12:27:19 SGT" duration-ms="417" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginPageTest@7586beff]" started-at="2024-06-08T12:34:33 SGT" name="tearDown" finished-at="2024-06-08T12:34:35 SGT" duration-ms="2376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:19 SGT" name="setup" finished-at="2024-06-08T12:27:22 SGT" duration-ms="3459" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:22 SGT" name="LoginBruteForcePageTest" data-provider="bruteForce" finished-at="2024-06-08T12:27:28 SGT" duration-ms="5802" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginBruteForcePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:28 SGT" name="tearDown" finished-at="2024-06-08T12:27:29 SGT" duration-ms="283" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:29 SGT" name="setup" finished-at="2024-06-08T12:27:32 SGT" duration-ms="3223" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="LoginBruteForcePageTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:32 SGT" name="LoginBruteForcePageTest" data-provider="bruteForce" finished-at="2024-06-08T12:27:38 SGT" duration-ms="6494" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginBruteForcePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.BruteForcePageTest@618b19ad]" started-at="2024-06-08T12:27:38 SGT" name="tearDown" finished-at="2024-06-08T12:27:39 SGT" duration-ms="288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testcases.BruteForcePageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testcases.LoginPageTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- CrossBrowser -->
 </testng-results>
